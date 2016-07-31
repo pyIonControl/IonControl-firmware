@@ -1,0 +1,13 @@
+; Sample memory initialization file for Dual Port Block Memory,
+; v3.0 or later.
+;
+; This .COE file specifies the contents for a block memory
+; of depth=16, and width=4.  In this case, values are specified
+; in hexadecimal format.
+memory_initialization_radix=16;
+memory_initialization_vector=
+0000, 0000, 0000, 0000,
+ffff, ffff, ffff, ffff,
+0000, 0000, 0000, fffe,
+0019, 0000, 0000, 0000,
+0003, 0000, 0000, 0000;

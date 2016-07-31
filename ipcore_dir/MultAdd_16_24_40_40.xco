@@ -1,0 +1,61 @@
+##############################################################
+#
+# Xilinx Core Generator version 14.7
+# Date: Sun Sep 06 20:47:15 2015
+#
+##############################################################
+#
+#  This file contains the customisation parameters for a
+#  Xilinx CORE Generator IP GUI. It is strongly recommended
+#  that you do not manually alter this file as it may cause
+#  unexpected and unsupported behavior.
+#
+##############################################################
+#
+#  Generated from component: xilinx.com:ip:xbip_multadd:2.0
+#
+##############################################################
+#
+# BEGIN Project Options
+SET addpads = false
+SET asysymbol = true
+SET busformat = BusFormatAngleBracketNotRipped
+SET createndf = false
+SET designentry = Verilog
+SET device = xc6slx45
+SET devicefamily = spartan6
+SET flowvendor = Other
+SET formalverification = false
+SET foundationsym = false
+SET implementationfiletype = Ngc
+SET package = fgg484
+SET removerpms = false
+SET simulationfiles = Behavioral
+SET speedgrade = -2
+SET verilogsim = true
+SET vhdlsim = false
+# END Project Options
+# BEGIN Select
+SELECT Multiply_Adder xilinx.com:ip:xbip_multadd:2.0
+# END Select
+# BEGIN Parameters
+CSET c_a_type=0
+CSET c_a_width=16
+CSET c_ab_latency=0
+CSET c_b_type=0
+CSET c_b_width=32
+CSET c_c_latency=0
+CSET c_c_type=1
+CSET c_c_width=32
+CSET c_ce_overrides_sclr=0
+CSET c_out_high=33
+CSET c_out_low=0
+CSET c_use_pcin=false
+CSET c_verbosity=0
+CSET component_name=MultAdd_16_24_40_40
+# END Parameters
+# BEGIN Extra information
+MISC pkg_timestamp=2013-07-22T10:41:27Z
+# END Extra information
+GENERATE
+# CRC: ca6ea309
